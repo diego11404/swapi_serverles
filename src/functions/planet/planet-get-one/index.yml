@@ -1,0 +1,7 @@
+planet-get-one:
+  handler: "src/functions/planet/planet-get-one/planet-get-one.main"
+  events:
+    - http:
+        method: get
+        path: planet/{id}
+        cors: true

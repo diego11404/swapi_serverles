@@ -1,0 +1,7 @@
+planet-put:
+  handler: "src/functions/planet/planet-put/planet-put.main"
+  events:
+    - http:
+        method: put
+        path: planet/{id}
+        cors: true

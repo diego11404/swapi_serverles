@@ -1,0 +1,7 @@
+planet-get-all:
+  handler: "src/functions/planet/planet-get-all/planet-get-all.main"
+  events:
+    - http:
+        method: get
+        path: planet
+        cors: true

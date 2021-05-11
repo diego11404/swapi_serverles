@@ -1,0 +1,7 @@
+people-get-all:
+  handler: "src/functions/people/people-get-all/people-get-all.main"
+  events:
+    - http:
+        method: get
+        path: people
+        cors: true

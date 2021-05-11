@@ -1,0 +1,7 @@
+planet-post:
+  handler: "src/functions/planet/planet-post/planet-post.main"
+  events:
+    - http:
+        method: post
+        path: planet
+        cors: true

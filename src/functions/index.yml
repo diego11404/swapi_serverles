@@ -1,0 +1,8 @@
+- ${file(./src/functions/films/films-get-all/index.yml)}
+- ${file(./src/functions/films/films-get-one/index.yml)}
+- ${file(./src/functions/people/people-get-all/index.yml)}
+- ${file(./src/functions/people/people-get-one/index.yml)}
+- ${file(./src/functions/planet/planet-get-all/index.yml)}
+- ${file(./src/functions/planet/planet-get-one/index.yml)}
+- ${file(./src/functions/planet/planet-post/index.yml)}
+- ${file(./src/functions/planet/planet-put/index.yml)}

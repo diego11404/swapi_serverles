@@ -1,0 +1,7 @@
+films-get-one:
+  handler: "src/functions/films/films-get-one/films-get-one.main"
+  events:
+    - http:
+        method: get
+        path: films/{id}
+        cors: true
